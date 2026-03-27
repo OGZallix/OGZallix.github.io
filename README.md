@@ -1,6 +1,6 @@
 # HexaVia
 
-[**Use HexaVia Online**](https://OGZallix.github.io/HexaVia/)
+[**Use HexaVia Online**](https://OGZallix.github.io/)
 
 ---
 
@@ -38,7 +38,7 @@ HexaVia was developed using:
 
 ## Getting Started
 
-1. [Open HexaVia Online](https://OGZallix.github.io/HexaVia/)
+1. [Open HexaVia Online](https://OGZallix.github.io/)
 2. Adjust the grid size (columns and rows) as needed
 3. Start planning your BitCraft empire streets!
 
