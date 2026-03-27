@@ -657,6 +657,7 @@ function groupFixedTextures(files, category) {
     files.forEach(file => {
         const cleanFile = file.replace(/\s+/g, '');
         if (!cleanFile.endsWith('.png')) return;
+        if (category === 'Gilded' && !(/Understated|Modest|Regal|Traditional|Lavish|Fancy/i.test(cleanFile))) return;
         if (category === 'Wood' && !(/Plank|Wood|Decorative/i.test(cleanFile))) return;
         if (category === 'Stone' && !(/Gravel|Cobble|Stone/i.test(cleanFile))) return;
         // Brick doesn't filter anything.
