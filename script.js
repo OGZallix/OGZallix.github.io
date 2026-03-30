@@ -638,7 +638,7 @@ loadBtn.onclick = () => {
 // === Fixed texture palette (non-editable) ===
 const fixedTextureFolders = [
     { name: 'Gilded', path: 'Textures/Roads/Gilded', files: [
-        'T1-Understated-1.png','T1-Understated-2.png'] },
+        'T1-Modest-1.png','T1-Modest-2.png','T1-Understated-1.png','T1-Understated-2.png','T1-Lavish-1.png','T1-Lavish-2.png','T1-Fancy-1.png','T1-Fancy-2.png','T1-Resplended-1.png','T1-Resplended-2.png'] },
     { name: 'Brick', path: 'Textures/Roads/Brick', files: [
         'T1-Brick-1.png','T1-Brick-2.png','T1-Brick-3.png','T1-Decorative-Brick-1.png','T2-Brick-1.png','T3-Brick-1.png','T3-Brick-2.png','T3-Decorative-Brick-1.png','T3-Decorative-Brick-2.png'] },
     { name: 'Stone', path: 'Textures/Roads/Stone', files: [
@@ -657,7 +657,7 @@ function groupFixedTextures(files, category) {
     files.forEach(file => {
         const cleanFile = file.replace(/\s+/g, '');
         if (!cleanFile.endsWith('.png')) return;
-        if (category === 'Gilded' && !(/Understated|Modest|Regal|Traditional|Lavish|Fancy/i.test(cleanFile))) return;
+        if (category === 'Gilded' && !(/Understated|Modest|Resplended|Lavish|Fancy/i.test(cleanFile))) return;
         if (category === 'Wood' && !(/Plank|Wood|Decorative/i.test(cleanFile))) return;
         if (category === 'Stone' && !(/Gravel|Cobble|Stone/i.test(cleanFile))) return;
         // Brick doesn't filter anything.
