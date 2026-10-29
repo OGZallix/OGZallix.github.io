@@ -44,6 +44,13 @@ HexaVia was developed using:
 
 ---
 
+## Support Me
+
+-[Buy me a coffee!](https://ko-fi.com/zallix)
+
+---
+
+
 ## License
 
 This project is open source and free to use.
